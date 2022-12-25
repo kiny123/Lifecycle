@@ -13,6 +13,14 @@
 		113F0E7D2950F6FA00CAE142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113F0E7B2950F6FA00CAE142 /* Main.storyboard */; };
 		113F0E7F2950F6FD00CAE142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113F0E7E2950F6FD00CAE142 /* Assets.xcassets */; };
 		113F0E822950F6FD00CAE142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113F0E802950F6FD00CAE142 /* LaunchScreen.storyboard */; };
+		113F0E932950FF1A00CAE142 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F0E922950FF1900CAE142 /* DetailViewController.swift */; };
+		117DA52829590F4E0020764B /* 6 viewDidAppear().png in Resources */ = {isa = PBXBuildFile; fileRef = 117DA52129590F4E0020764B /* 6 viewDidAppear().png */; };
+		117DA52929590F4E0020764B /* 4 viewWillAppear().png in Resources */ = {isa = PBXBuildFile; fileRef = 117DA52229590F4E0020764B /* 4 viewWillAppear().png */; };
+		117DA52A29590F4E0020764B /* 1 init().png in Resources */ = {isa = PBXBuildFile; fileRef = 117DA52329590F4E0020764B /* 1 init().png */; };
+		117DA52B29590F4E0020764B /* 3 viewDidLoad().png in Resources */ = {isa = PBXBuildFile; fileRef = 117DA52429590F4E0020764B /* 3 viewDidLoad().png */; };
+		117DA52C29590F4E0020764B /* 7 viewDidDisappear().png in Resources */ = {isa = PBXBuildFile; fileRef = 117DA52529590F4E0020764B /* 7 viewDidDisappear().png */; };
+		117DA52D29590F4E0020764B /* 2 loadView().png in Resources */ = {isa = PBXBuildFile; fileRef = 117DA52629590F4E0020764B /* 2 loadView().png */; };
+		117DA52E29590F4E0020764B /* 5 viewWillDisappear().png in Resources */ = {isa = PBXBuildFile; fileRef = 117DA52729590F4E0020764B /* 5 viewWillDisappear().png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		113F0E7E2950F6FD00CAE142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		113F0E812950F6FD00CAE142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		113F0E832950F6FD00CAE142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113F0E922950FF1900CAE142 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		117DA52129590F4E0020764B /* 6 viewDidAppear().png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6 viewDidAppear().png"; sourceTree = "<group>"; };
+		117DA52229590F4E0020764B /* 4 viewWillAppear().png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4 viewWillAppear().png"; sourceTree = "<group>"; };
+		117DA52329590F4E0020764B /* 1 init().png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 init().png"; sourceTree = "<group>"; };
+		117DA52429590F4E0020764B /* 3 viewDidLoad().png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3 viewDidLoad().png"; sourceTree = "<group>"; };
+		117DA52529590F4E0020764B /* 7 viewDidDisappear().png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7 viewDidDisappear().png"; sourceTree = "<group>"; };
+		117DA52629590F4E0020764B /* 2 loadView().png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2 loadView().png"; sourceTree = "<group>"; };
+		117DA52729590F4E0020764B /* 5 viewWillDisappear().png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5 viewWillDisappear().png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +75,28 @@
 				113F0E752950F6FA00CAE142 /* AppDelegate.swift */,
 				113F0E772950F6FA00CAE142 /* SceneDelegate.swift */,
 				113F0E792950F6FA00CAE142 /* ViewController.swift */,
+				113F0E922950FF1900CAE142 /* DetailViewController.swift */,
 				113F0E7B2950F6FA00CAE142 /* Main.storyboard */,
 				113F0E7E2950F6FD00CAE142 /* Assets.xcassets */,
 				113F0E802950F6FD00CAE142 /* LaunchScreen.storyboard */,
 				113F0E832950F6FD00CAE142 /* Info.plist */,
+				117DA52029590F4E0020764B /* Contents */,
 			);
 			path = Lifecycle;
+			sourceTree = "<group>";
+		};
+		117DA52029590F4E0020764B /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				117DA52129590F4E0020764B /* 6 viewDidAppear().png */,
+				117DA52229590F4E0020764B /* 4 viewWillAppear().png */,
+				117DA52329590F4E0020764B /* 1 init().png */,
+				117DA52429590F4E0020764B /* 3 viewDidLoad().png */,
+				117DA52529590F4E0020764B /* 7 viewDidDisappear().png */,
+				117DA52629590F4E0020764B /* 2 loadView().png */,
+				117DA52729590F4E0020764B /* 5 viewWillDisappear().png */,
+			);
+			path = Contents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +156,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117DA52C29590F4E0020764B /* 7 viewDidDisappear().png in Resources */,
+				117DA52D29590F4E0020764B /* 2 loadView().png in Resources */,
+				117DA52829590F4E0020764B /* 6 viewDidAppear().png in Resources */,
+				117DA52A29590F4E0020764B /* 1 init().png in Resources */,
 				113F0E822950F6FD00CAE142 /* LaunchScreen.storyboard in Resources */,
+				117DA52B29590F4E0020764B /* 3 viewDidLoad().png in Resources */,
+				117DA52929590F4E0020764B /* 4 viewWillAppear().png in Resources */,
 				113F0E7F2950F6FD00CAE142 /* Assets.xcassets in Resources */,
+				117DA52E29590F4E0020764B /* 5 viewWillDisappear().png in Resources */,
 				113F0E7D2950F6FA00CAE142 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +179,7 @@
 				113F0E7A2950F6FA00CAE142 /* ViewController.swift in Sources */,
 				113F0E762950F6FA00CAE142 /* AppDelegate.swift in Sources */,
 				113F0E782950F6FA00CAE142 /* SceneDelegate.swift in Sources */,
+				113F0E932950FF1A00CAE142 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
